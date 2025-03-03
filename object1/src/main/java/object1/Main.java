@@ -7,4 +7,7 @@ public class Main {
     public static void main(String... args) {
         Logger logger=Logger.getLogger(Main.class.getName());
         logger.info("This is a module-using Hello World!");    }
+
+//    public Person person = new person ();
+
 }
