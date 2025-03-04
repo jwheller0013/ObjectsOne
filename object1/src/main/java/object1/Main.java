@@ -1,5 +1,7 @@
 package object1;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.logging.Logger;
 
 public class Main {
@@ -9,5 +11,6 @@ public class Main {
         logger.info("This is a module-using Hello World!");    }
 
 //    public Person person = new person ();
+
 
 }
