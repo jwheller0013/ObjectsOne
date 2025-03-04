@@ -34,4 +34,8 @@ public class Dog {
     public void setBreed(String breed) {
         this.breed = breed;
     }
+
+    Dog[] dog = new Dog[][10];
+    Dog dog1 = new Dog("Spud", 12, "Beagle");
+
 }

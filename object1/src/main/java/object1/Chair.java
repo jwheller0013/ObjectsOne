@@ -34,4 +34,8 @@ public class Chair {
     public void setLegs(int legs) {
         this.legs = legs;
     }
+
+    Chair[] chair = new Chair[10];
+    Chair chair1 = new Chair("leather", "black", 4);
+
 }

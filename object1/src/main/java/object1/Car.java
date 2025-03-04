@@ -44,4 +44,8 @@ public class Car {
     public void setMileage(int mileage) {
         this.mileage = mileage;
     }
+
+    Car[] car = new Car[][10];
+    Car car1 = new Car("Nissan", "Altima", 2018, 76000);
+
 }

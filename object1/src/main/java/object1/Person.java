@@ -16,4 +16,14 @@ public class Person {
 
     }
 
+    Person[] people = new Person[10];
+
+    Person person1 = new Person("Alice", 25, 130);
+    Person person2 = new Person("Bob", 30, 140);
+
+    people[0] = person1;
+    people[1] = person2;
+
+    Person person = people[0];
+
 }
